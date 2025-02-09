@@ -1,0 +1,1 @@
+qemu-system-riscv64 -vga virtio -cpu help

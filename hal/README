@@ -1,0 +1,8 @@
+Thư mục hal/ trong ReactOS là gì?
+Trong ReactOS, thư mục hal/ (Hardware Abstraction Layer - Lớp Trừu Tượng Phần Cứng) chứa mã nguồn của HAL – một lớp trung gian giữa hệ điều hành và phần cứng.
+
+1. Vai trò của HAL trong ReactOS
+Trừu tượng hóa phần cứng: Cho phép hệ điều hành tương tác với CPU, bộ nhớ, IRQ, I/O mà không cần phụ thuộc vào từng loại phần cứng cụ thể.
+Quản lý kiến trúc CPU: Hỗ trợ nhiều kiến trúc như x86, ARM, AMD64.
+Xử lý ngắt (Interrupts): Cung cấp trình điều khiển cho bộ điều khiển ngắt lập trình (PIC, APIC).
+Hỗ trợ ACPI: Giúp quản lý năng lượng và thiết bị ngoại vi.
